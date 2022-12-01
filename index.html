@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO WEBSITE - SUMIT RAJ</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3b7db2044a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#" id="blue-line"><span id="red">S</span><span id="normal">UMIT.</span></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Vision</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Sumit</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------about-------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>&#x2022; I'm a compSci undergrad currently in my second
+                        year.<br>&#x2022; TechStacks I know: HTML,
+                        CSS, JavaSript, Bootstrap, DOM Manipulation. Currently, learning about APIs, React, Node
+                        and
+                        Angular.<br>&#x2022; I document my web-dev journey on <a href="https://twitter.com/sum_itt20"
+                            id="twitter">Twitter</a>.<br>&#x2022; I've
+                        sheer interest in web3.0, open-source and am looking forward to GSoC 2023
+                        contributions.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('interests')">Interests</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Front-end Development:<br>&emsp;HTML5,
+                                CSS3, Bootstrap, JavaSript
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="interests">
+                        <ul>
+                            <li><span>Contribution</span><br>to open-source</li>
+                            <li><span>Web3.0</span><br>Dapps(decentralised applications) Development</li>
+                            <li><span>UI/UX Designing</span><br>Brainstorming and building prototypes</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MATRICULATION FROM</span><br>DELHI PUBLIC SCHOOL, DHANBAD, grade: 10 CGPA
+                            </li>
+                            <li><span>+2 FROM</span><br>DELHI PUBLIC SCHOOL, DHANBAD, grade: 8.9 CGPA</li>
+                            <li><span>SOPHOMORE, PURSUING INFROMATION SCIENCE ENGINEERING AT</span><br>RNS INSTITUTE OF
+                                TECHNOLOGY,
+                                BENGALURU (2021-2025)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------Vision--------------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Short-term Goals</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>To learn about front-end techstacks like less, scss, sass, tailwind. Be well hearsed with the
+                        design techniques. Contribute to the community by creating valuable stuff.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designing</h2>
+                    <p>To learn about empathy, strategy, usability, inclusivity, and validation, make hi-fidelity
+                        prototypes and wireframes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------portfolio------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Candy Museum Landing Page</h3>
+                        <p>One of my first projects, depicts the landing page of a candy museum that I created under my
+                            Udemy Instructor's guidance, Mr. Colt Steele.</p>
+                        <a href="https://milderbronze.github.io/candymuseum.github.io/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Institute Website</h3>
+                        <p>I tried to create a fully responsive website for a hypothetical institution via the help of
+                            some online resources.</p>
+                        <a href="https://milderbronze.github.io/MilderMadeAClone.github.io/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Portfolio Webpage</h3>
+                        <p>This is the link to my personal portfolio webpage.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -------------------contact----------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> sumitinbki@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91-8825333212</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sumit-raj-b22823227/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/sum_itt20"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/MilderBronze"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/sum_itt20/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwnUKKa5pwpiZtwDe6BMFo3baEaZ5XFpMN4hhVvQRuxIJUExoWLOpdsGYjuOMaaQL72/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message has been sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
