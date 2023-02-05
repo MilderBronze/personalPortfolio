@@ -340,7 +340,7 @@ nav .fa-solid {
   .btn,
   .btn2 {
     background: #0fa;
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
   #header {
     background-image: url(images/phone-background.png);
