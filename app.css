@@ -371,7 +371,7 @@ nav .fa-solid {
     font-size: 25px;
   }
   nav ul {
-    background: #0fa;
+    background: rgba(0, 255, 170, 0.237);
     position: fixed;
     top: 0;
     right: -200px;
